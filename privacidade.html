@@ -24,7 +24,7 @@
         <div class="hero-badge">🔒 Privacidade</div>
         <h1>Política de <span>Privacidade</span></h1>
         <p class="subtitle">Saiba exatamente quais dados o Appi Palavra Viva coleta, como são utilizados e de que forma protegemos a sua privacidade.</p>
-        <p class="update-date">Última atualização: Abril de 2026</p>
+        <p class="update-date">Última atualização: Junho de 2026</p>
     </header>
 
     <main class="content">
@@ -41,6 +41,8 @@
                 <li><strong>Preferências e progresso:</strong> Dados de estado lógico dentro do app que o servidor mantém armazenados para preservar seu progresso — como a leitura bíblica, devocionais, notas, anotações de oração e pontuação nos quizzes bíblicos.</li>
                 <li><strong>Mensagens com a Palavra.AI:</strong> As mensagens enviadas ao assistente de inteligência artificial são processadas pela API da OpenAI para gerar respostas contextualizadas. O conteúdo dessas conversas é utilizado unicamente para a funcionalidade do chat.</li>
                 <li><strong>Informações técnicas:</strong> Logs anônimos de performance e relatórios de erros (crash reports) utilizados para aprimorar a estabilidade do aplicativo.</li>
+                <li><strong>Publicidade (plano gratuito):</strong> Identificadores de dispositivo e dados de interação com anúncios, processados pelo Google AdMob para exibir anúncios no plano gratuito. Usuários Premium não recebem anúncios.</li>
+                <li><strong>Assinatura Premium:</strong> Identificador da conta, status da assinatura e histórico de compra/restauração, processados pela Apple (App Store), RevenueCat e Supabase para ativar o benefício de remoção de anúncios. No Android, dados de pagamento (CPF e informações de cobrança) podem ser processados pelo Asaas exclusivamente para a assinatura via PIX ou cartão.</li>
             </ul>
         </section>
 
@@ -70,8 +72,11 @@
             <h2><span class="section-num">4</span> Compartilhamento de Dados</h2>
             <p>A Appi Company <strong>não vende, aluga nem compartilha</strong> dados pessoais com terceiros para fins de marketing ou publicidade. Os dados trafegam apenas pelas infraestruturas técnicas indispensáveis:</p>
             <ul>
-                <li><strong>Supabase:</strong> Banco de dados em nuvem para autenticação e armazenamento seguro.</li>
+                <li><strong>Supabase:</strong> Banco de dados em nuvem para autenticação, armazenamento seguro e status de assinatura Premium.</li>
                 <li><strong>OpenAI:</strong> Processamento de mensagens do recurso Palavra.AI.</li>
+                <li><strong>Google AdMob:</strong> Exibição de anúncios no plano gratuito.</li>
+                <li><strong>RevenueCat e Apple App Store:</strong> Processamento e validação de assinaturas Premium no iOS.</li>
+                <li><strong>Asaas:</strong> Processamento de pagamentos de assinatura Premium no Android (PIX e cartão de crédito).</li>
             </ul>
             <p>Todos os provedores utilizam conexões criptografadas e seguem padrões internacionais de segurança.</p>
         </section>
@@ -105,12 +110,23 @@
         </section>
 
         <section class="legal-section">
-            <h2><span class="section-num">8</span> Alterações nesta Política</h2>
+            <h2><span class="section-num">8</span> Assinatura Premium e Pagamentos</h2>
+            <p>O plano <strong>Premium Mensal</strong> remove anúncios do aplicativo. O conteúdo e os recursos permanecem os mesmos; apenas a experiência sem anúncios é oferecida como benefício pago.</p>
+            <ul>
+                <li><strong>iOS:</strong> A compra é processada pela Apple. Não armazenamos dados completos de cartão de crédito — a Apple gerencia o pagamento. O status da assinatura é sincronizado via RevenueCat e Supabase.</li>
+                <li><strong>Android:</strong> A assinatura pode ser contratada via PIX ou cartão por meio do Asaas. Dados de cobrança são utilizados somente para processar o pagamento e manter a assinatura ativa.</li>
+                <li><strong>Cancelamento:</strong> No iOS, cancele em Ajustes &gt; Apple ID &gt; Assinaturas. No Android, cancele na tela Premium do aplicativo ou entre em contato conosco.</li>
+            </ul>
+            <p>Consulte também nossos <a href="termos.html" style="color:var(--gold-primary);font-weight:600">Termos de Uso</a> para condições completas da assinatura.</p>
+        </section>
+
+        <section class="legal-section">
+            <h2><span class="section-num">9</span> Alterações nesta Política</h2>
             <p>A Appi Company reserva-se o direito de atualizar esta Política a qualquer momento. Alterações significativas serão comunicadas pelo aplicativo. Recomendamos revisão periódica deste documento.</p>
         </section>
 
         <section class="legal-section">
-            <h2><span class="section-num">9</span> Contato</h2>
+            <h2><span class="section-num">10</span> Contato</h2>
             <div class="highlight-box">
                 <strong>Appi Company</strong>
                 <p>E-mail: <a href="mailto:contato@appicompany.com" style="color:var(--gold-primary);font-weight:600">contato@appicompany.com</a></p>
